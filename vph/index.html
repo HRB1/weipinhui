@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="./styles/swiper.min.css">
+    <title>唯品会</title>
+</head>
+
+<body>
+    <!-- 头部 start -->
+    <div class="header">
+        <div class="head_top">
+            <div class="head_top_con">
+                <ul>
+                    <li>上海市<span class="iconfont icon-triangle-down"></span></li>
+                </ul>
+                <ol>
+                    <li><span>请登录</span><i>/</i></li>
+                    <li><span>注册</span><i>/</i></li>
+                    <li><b class="iconfont icon-tianmao2 red"></b><span>签到有礼</span><i>/</i></li>
+                    <li><span>我的订单</span><i>/</i></li>
+                    <li><span>我的特卖</span><b class="iconfont icon-triangle-down"></b><i>/</i></li>
+                    <li><span>会员俱乐部</span><i>/</i></li>
+                    <li><span>客户服务</span><b class="iconfont icon-triangle-down"></b><i>/</i></li>
+                    <li><b class="iconfont icon-shouji1"></b><span>手机版</span><i>/</i></li>
+                    <li><span>更多</span><b class="iconfont icon-triangle-down"></b><i>/</i></li>
+                </ol>
+            </div>
+        </div>
+        <div class="log">
+            <h2 class="logl"><img src="./images/log.png"></h2>
+            <h2 class="logr"><img src="./images/log2.png"></h2>
+            <div class="log_right">
+                <div class="inpts" id="inpts">
+                    <input id="serchText" type="text" placeholder="试试搜索商品、分类品牌">
+                    <div class="serch_con" id="serch_con">
+                        <div class="random_con" id="randomCon">
+                            <ul id="serch_left_con">
+                                <!-- <li class="current">11111</li>
+                                <li>11111</li>
+                                <li>11111</li> -->
+                            </ul>
+                        </div>
+                        <div class="random_bot" id="randomBot">
+                            <span class="serch_left">
+                                    <ul id="serch_list">
+                                            <!-- <li class="current">11111</li><span>
+                                            <li>11111</li>
+                                            <li>11111</li> -->
+                                    </ul>
+                                <span id="deleSerch">
+                                    清除历史记录<i class="iconfont icon-lajitong"></i>
+                                </span>
+                            </span>
+                            <ul class="serch_right" id="serchRight">
+                                <!-- <span>精品推荐</span> -->
+                                <!-- <li>羽绒服</li>
+                                <li>羽绒服</li>
+                                <li>羽绒服</li>
+                                <li>羽绒服</li>
+                                <li>羽绒服ssss</li> -->
+                            </ul>
+                        </div>
+
+                    </div>
+                    <span id="serchbtn"><i class="iconfont icon-fangdajing"></i></span>
+                </div>
+                <p class="shop"><i class="iconfont icon-gouwuche"></i>购物车<span>0</span></p>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+
+    </div>
+    <!-- 头部 end -->
+    <!-- 导航 start-->
+    <div class="nav" id="nav">
+        <nav class="nav_con">
+            <h2 id="nav_type">
+                <i class="iconfont icon-shouqi-01"></i>
+                商品分类
+            </h2>
+            <ul>
+                <li class="active">首页</li>
+                <li>最后风情</li>
+                <li>女装</li>
+                <li>母婴</li>
+                <li>家电</li>
+                <li>国际</li>
+                <li>美的</li>
+                <li>鞋包</li>
+                <li>男装</li>
+                <li>运动</li>
+                <li>预告</li>
+                <li>更多<span class="iconfont icon-triangle-down"></span></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- 导航 end -->
+
+    <!-- 轮播图 start-->
+    <div class="banner">
+        <div class="bannerC">
+
+            <div class="swiper-conatiner" id="Swconation">
+                <div class="swiper-wrapper" id="Swwrapper">
+                    <!-- <div class="swiper-slide"><img src="./images/lunbo2.jpg"></div> -->
+                </div>
+                <div class="swiper-pagination" id="Swpag"></div>
+                <div class="swiper-button-prev" id="prev"></div>
+                <div class="swiper-button-next" id="next"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播图 end -->
+
+    <div class="con_top">
+        <h2><img src="./images/bikan.png"></h2>
+        <h2 class="con_top_bot"><img src="./images/bikan_con.png"></h2>
+        <h2 class="con_top_tit">
+            <div class="bot_left"></div>
+            <sapn class="con_top_tit_tits">新人优选</sapn>好货专区<div class="bot_right"></div>
+        </h2>
+        <div class="con_bot_title_bar">
+            <p><i class="iconfont icon-shizhong1"></i>今日秒杀</p>
+            <ul id="tab_title">
+                <!-- <li class="frist">护肤</li> -->
+            </ul>
+        </div>
+        <div class="con_bot">
+            <h2><img src="./images/bg_v3.jpg.webp"></h2>
+            <div id="tabCon">
+                <!-- <div>
+                        <dl>
+                                <dt><img src="./images/loading.gif"></dt>
+                                <dd><p class="shopName">这是个商品</p><p class="shopPrice"><span>秒杀价￥<b>196</b><i>￥123</i></span></p></dd>
+                        </dl>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 中间内容 start -->
+    <div class="content">
+        <div class="content_top">
+            <h2><img src="./images/today_DDp.png"></h2>
+        </div>
+        <div class="con_center" id="conCenter">
+            <!-- <div class="con_center_con">
+                  <h2><img src="./images/1q.png"></h2>
+                  <div class="center_con_ct">
+                        <dl>
+                                <dt>
+                                    <img src="./images/loading.gif">
+                                </dt>
+                                <dd>
+                                    <span class="price">
+                                        <b>0.9</b>折起
+                                    </span>
+                                    <span class="shopName">
+                                        资质炒饭女声大衣
+                                    </span>
+                                    <span class="timekeeper">
+                                        <b class="iconfont icon-shizhong1"></b>剩余<i>3</i>天
+                                    </span>
+                                </dd>
+                        </dl>
+                  </div>
+                  <div style="clear:both"></div>
+                  <p class="center_con_bt">获取更多<span>鞋包</span>品牌</p>
+           </div> -->
+        </div>
+        <div style="clear: both"></div>
+        <div class="leftNav" id="leftNav">
+            <ul id="leftNav_con">
+                <!-- <li><span class="iconfont icon-Instagram"></span>女装</li>
+              <li><span class="iconfont icon-Instagram"></span>女装</li>
+              <li><span class="iconfont icon-Instagram"></span>女装</li>
+              <li><span class="iconfont icon-Instagram"></span>女装</li>
+              <li><span class="iconfont icon-Instagram"></span>女装</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- 中间内容 end -->
+
+
+    <!-- 右边导航nav_right start-->
+    <div class="rightNav">
+        <ul>
+            <li class="shop1"><i class="iconfont icon-yonghu"></i>账号</li>
+            <li class="shop2"><i class="iconfont icon-gouwuche"></i><span class="gou">购物车</span><span class="num">0</span></li>
+            <li><i class="iconfont icon-qiaquan"></i></li>
+            <li><i class="iconfont icon-shoucang1"></i></li>
+            <li><i class="iconfont icon-tianjia"></i></li>
+            <li><i class="iconfont icon-dingwei1"></i></li>
+            <li><i class="iconfont icon-dianzan"></i></li>
+            <li id="reTop"><i class="iconfont icon-chevron-thin-up"></i></li>
+        </ul>
+    </div>
+    <!--  右边导航nav_right end-->
+</body>
+<script src="./scripts/libes/require.js" async="true" defer data-main="./scripts/app/defaults"></script>
+
+
+</html>
